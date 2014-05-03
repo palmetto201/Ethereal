@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CCD3FC019148E4E0044E332 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCD3FBF19148E4E0044E332 /* Foundation.framework */; };
+		5CCD3FC219148E4E0044E332 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCD3FC119148E4E0044E332 /* CoreGraphics.framework */; };
+		5CCD3FC419148E4E0044E332 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCD3FC319148E4E0044E332 /* UIKit.framework */; };
+		5CCD3FCA19148E4E0044E332 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CCD3FC819148E4E0044E332 /* InfoPlist.strings */; };
+		5CCD3FCC19148E4E0044E332 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD3FCB19148E4E0044E332 /* main.m */; };
+		5CCD3FD019148E4E0044E332 /* com_palmetto_etherealAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD3FCF19148E4E0044E332 /* com_palmetto_etherealAppDelegate.m */; };
+		5CCD3FD319148E4E0044E332 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CCD3FD119148E4E0044E332 /* Main.storyboard */; };
+		5CCD3FD619148E4E0044E332 /* com_palmetto_etherealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD3FD519148E4E0044E332 /* com_palmetto_etherealViewController.m */; };
+		5CCD3FD819148E4E0044E332 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CCD3FD719148E4E0044E332 /* Images.xcassets */; };
+		5CCD3FDF19148E4F0044E332 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCD3FDE19148E4F0044E332 /* XCTest.framework */; };
+		5CCD3FE019148E4F0044E332 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCD3FBF19148E4E0044E332 /* Foundation.framework */; };
+		5CCD3FE119148E4F0044E332 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCD3FC319148E4E0044E332 /* UIKit.framework */; };
+		5CCD3FE919148E4F0044E332 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CCD3FE719148E4F0044E332 /* InfoPlist.strings */; };
+		5CCD3FEB19148E4F0044E332 /* EtherealBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCD3FEA19148E4F0044E332 /* EtherealBrowserTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CCD3FE219148E4F0044E332 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CCD3FB419148E4E0044E332 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CCD3FBB19148E4E0044E332;
+			remoteInfo = EtherealBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CCD3FBC19148E4E0044E332 /* EtherealBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EtherealBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CCD3FBF19148E4E0044E332 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CCD3FC119148E4E0044E332 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5CCD3FC319148E4E0044E332 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5CCD3FC719148E4E0044E332 /* EtherealBrowser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EtherealBrowser-Info.plist"; sourceTree = "<group>"; };
+		5CCD3FC919148E4E0044E332 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CCD3FCB19148E4E0044E332 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CCD3FCD19148E4E0044E332 /* EtherealBrowser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EtherealBrowser-Prefix.pch"; sourceTree = "<group>"; };
+		5CCD3FCE19148E4E0044E332 /* com_palmetto_etherealAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = com_palmetto_etherealAppDelegate.h; sourceTree = "<group>"; };
+		5CCD3FCF19148E4E0044E332 /* com_palmetto_etherealAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_palmetto_etherealAppDelegate.m; sourceTree = "<group>"; };
+		5CCD3FD219148E4E0044E332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CCD3FD419148E4E0044E332 /* com_palmetto_etherealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = com_palmetto_etherealViewController.h; sourceTree = "<group>"; };
+		5CCD3FD519148E4E0044E332 /* com_palmetto_etherealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_palmetto_etherealViewController.m; sourceTree = "<group>"; };
+		5CCD3FD719148E4E0044E332 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5CCD3FDD19148E4F0044E332 /* EtherealBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtherealBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CCD3FDE19148E4F0044E332 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5CCD3FE619148E4F0044E332 /* EtherealBrowserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EtherealBrowserTests-Info.plist"; sourceTree = "<group>"; };
+		5CCD3FE819148E4F0044E332 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CCD3FEA19148E4F0044E332 /* EtherealBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EtherealBrowserTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CCD3FB919148E4E0044E332 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCD3FC219148E4E0044E332 /* CoreGraphics.framework in Frameworks */,
+				5CCD3FC419148E4E0044E332 /* UIKit.framework in Frameworks */,
+				5CCD3FC019148E4E0044E332 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCD3FDA19148E4F0044E332 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCD3FDF19148E4F0044E332 /* XCTest.framework in Frameworks */,
+				5CCD3FE119148E4F0044E332 /* UIKit.framework in Frameworks */,
+				5CCD3FE019148E4F0044E332 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CCD3FB319148E4E0044E332 = {
+			isa = PBXGroup;
+			children = (
+				5CCD3FC519148E4E0044E332 /* EtherealBrowser */,
+				5CCD3FE419148E4F0044E332 /* EtherealBrowserTests */,
+				5CCD3FBE19148E4E0044E332 /* Frameworks */,
+				5CCD3FBD19148E4E0044E332 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CCD3FBD19148E4E0044E332 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CCD3FBC19148E4E0044E332 /* EtherealBrowser.app */,
+				5CCD3FDD19148E4F0044E332 /* EtherealBrowserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CCD3FBE19148E4E0044E332 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CCD3FBF19148E4E0044E332 /* Foundation.framework */,
+				5CCD3FC119148E4E0044E332 /* CoreGraphics.framework */,
+				5CCD3FC319148E4E0044E332 /* UIKit.framework */,
+				5CCD3FDE19148E4F0044E332 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CCD3FC519148E4E0044E332 /* EtherealBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				5CCD3FCE19148E4E0044E332 /* com_palmetto_etherealAppDelegate.h */,
+				5CCD3FCF19148E4E0044E332 /* com_palmetto_etherealAppDelegate.m */,
+				5CCD3FD119148E4E0044E332 /* Main.storyboard */,
+				5CCD3FD419148E4E0044E332 /* com_palmetto_etherealViewController.h */,
+				5CCD3FD519148E4E0044E332 /* com_palmetto_etherealViewController.m */,
+				5CCD3FD719148E4E0044E332 /* Images.xcassets */,
+				5CCD3FC619148E4E0044E332 /* Supporting Files */,
+			);
+			path = EtherealBrowser;
+			sourceTree = "<group>";
+		};
+		5CCD3FC619148E4E0044E332 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CCD3FC719148E4E0044E332 /* EtherealBrowser-Info.plist */,
+				5CCD3FC819148E4E0044E332 /* InfoPlist.strings */,
+				5CCD3FCB19148E4E0044E332 /* main.m */,
+				5CCD3FCD19148E4E0044E332 /* EtherealBrowser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CCD3FE419148E4F0044E332 /* EtherealBrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CCD3FEA19148E4F0044E332 /* EtherealBrowserTests.m */,
+				5CCD3FE519148E4F0044E332 /* Supporting Files */,
+			);
+			path = EtherealBrowserTests;
+			sourceTree = "<group>";
+		};
+		5CCD3FE519148E4F0044E332 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CCD3FE619148E4F0044E332 /* EtherealBrowserTests-Info.plist */,
+				5CCD3FE719148E4F0044E332 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CCD3FBB19148E4E0044E332 /* EtherealBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CCD3FEE19148E4F0044E332 /* Build configuration list for PBXNativeTarget "EtherealBrowser" */;
+			buildPhases = (
+				5CCD3FB819148E4E0044E332 /* Sources */,
+				5CCD3FB919148E4E0044E332 /* Frameworks */,
+				5CCD3FBA19148E4E0044E332 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EtherealBrowser;
+			productName = EtherealBrowser;
+			productReference = 5CCD3FBC19148E4E0044E332 /* EtherealBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CCD3FDC19148E4F0044E332 /* EtherealBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CCD3FF119148E4F0044E332 /* Build configuration list for PBXNativeTarget "EtherealBrowserTests" */;
+			buildPhases = (
+				5CCD3FD919148E4F0044E332 /* Sources */,
+				5CCD3FDA19148E4F0044E332 /* Frameworks */,
+				5CCD3FDB19148E4F0044E332 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CCD3FE319148E4F0044E332 /* PBXTargetDependency */,
+			);
+			name = EtherealBrowserTests;
+			productName = EtherealBrowserTests;
+			productReference = 5CCD3FDD19148E4F0044E332 /* EtherealBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CCD3FB419148E4E0044E332 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = com.palmetto.ethereal;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = palmetto201;
+				TargetAttributes = {
+					5CCD3FDC19148E4F0044E332 = {
+						TestTargetID = 5CCD3FBB19148E4E0044E332;
+					};
+				};
+			};
+			buildConfigurationList = 5CCD3FB719148E4E0044E332 /* Build configuration list for PBXProject "EtherealBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CCD3FB319148E4E0044E332;
+			productRefGroup = 5CCD3FBD19148E4E0044E332 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CCD3FBB19148E4E0044E332 /* EtherealBrowser */,
+				5CCD3FDC19148E4F0044E332 /* EtherealBrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CCD3FBA19148E4E0044E332 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCD3FD819148E4E0044E332 /* Images.xcassets in Resources */,
+				5CCD3FCA19148E4E0044E332 /* InfoPlist.strings in Resources */,
+				5CCD3FD319148E4E0044E332 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCD3FDB19148E4F0044E332 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCD3FE919148E4F0044E332 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CCD3FB819148E4E0044E332 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCD3FD019148E4E0044E332 /* com_palmetto_etherealAppDelegate.m in Sources */,
+				5CCD3FD619148E4E0044E332 /* com_palmetto_etherealViewController.m in Sources */,
+				5CCD3FCC19148E4E0044E332 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCD3FD919148E4F0044E332 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCD3FEB19148E4F0044E332 /* EtherealBrowserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CCD3FE319148E4F0044E332 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CCD3FBB19148E4E0044E332 /* EtherealBrowser */;
+			targetProxy = 5CCD3FE219148E4F0044E332 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CCD3FC819148E4E0044E332 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CCD3FC919148E4E0044E332 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5CCD3FD119148E4E0044E332 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CCD3FD219148E4E0044E332 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CCD3FE719148E4F0044E332 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CCD3FE819148E4F0044E332 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CCD3FEC19148E4F0044E332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5CCD3FED19148E4F0044E332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CCD3FEF19148E4F0044E332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EtherealBrowser/EtherealBrowser-Prefix.pch";
+				INFOPLIST_FILE = "EtherealBrowser/EtherealBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CCD3FF019148E4F0044E332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EtherealBrowser/EtherealBrowser-Prefix.pch";
+				INFOPLIST_FILE = "EtherealBrowser/EtherealBrowser-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5CCD3FF219148E4F0044E332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EtherealBrowser.app/EtherealBrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EtherealBrowser/EtherealBrowser-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EtherealBrowserTests/EtherealBrowserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5CCD3FF319148E4F0044E332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EtherealBrowser.app/EtherealBrowser";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EtherealBrowser/EtherealBrowser-Prefix.pch";
+				INFOPLIST_FILE = "EtherealBrowserTests/EtherealBrowserTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CCD3FB719148E4E0044E332 /* Build configuration list for PBXProject "EtherealBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CCD3FEC19148E4F0044E332 /* Debug */,
+				5CCD3FED19148E4F0044E332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CCD3FEE19148E4F0044E332 /* Build configuration list for PBXNativeTarget "EtherealBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CCD3FEF19148E4F0044E332 /* Debug */,
+				5CCD3FF019148E4F0044E332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CCD3FF119148E4F0044E332 /* Build configuration list for PBXNativeTarget "EtherealBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CCD3FF219148E4F0044E332 /* Debug */,
+				5CCD3FF319148E4F0044E332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CCD3FB419148E4E0044E332 /* Project object */;
+}
