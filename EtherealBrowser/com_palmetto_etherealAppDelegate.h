@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BrowserDelegate.h"
+#import "BrowserViewController.h"
 
-@interface com_palmetto_etherealAppDelegate : UIResponder <UIApplicationDelegate>
+@interface com_palmetto_etherealAppDelegate : BrowserDelegate <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+@property (strong, nonatomic) BrowserViewController *viewController;
 
 @end
