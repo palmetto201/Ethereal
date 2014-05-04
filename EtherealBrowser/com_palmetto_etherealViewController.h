@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BrowserViewController.h"
 
-@interface com_palmetto_etherealViewController : UIViewController
+@interface com_palmetto_etherealViewController : BrowserViewController
 
 @end

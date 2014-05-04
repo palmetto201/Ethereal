@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6DF1A230-0478-47CD-99F4-A836ACAE4CC2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>EtherealBrowser</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4697442C-0525-46F0-B936-0C7BD3D0B751</key>
+		<string>https://github.com/palmetto201/Ethereal</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>EtherealBrowser.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4697442C-0525-46F0-B936-0C7BD3D0B751</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/palmetto201/Ethereal</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4697442C-0525-46F0-B936-0C7BD3D0B751</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4697442C-0525-46F0-B936-0C7BD3D0B751</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Ethereal</string>
+		</dict>
+	</array>
+</dict>
+</plist>
